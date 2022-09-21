@@ -1,7 +1,7 @@
 import React from "react";
 
 const ChannelDetail = () => {
-  return <div>ChannelDetail</div>;
+  return <Box>ChannelDetail</Box>;
 };
 
 export default ChannelDetail;

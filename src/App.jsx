@@ -11,7 +11,11 @@ import {
 function App() {
   return (
     <BrowserRouter>
-      <Box sx={{ backgroundColor: "#000" }}>
+      <Box
+        sx={{ backgroundColor: "#000", py: "12px" }}
+        flexGrow={1}
+        display={{ xs: "none", sm: "block" }}
+      >
         <Navbar />
         <Routes>
           <Route exact path="/" element={<Feed />} />
