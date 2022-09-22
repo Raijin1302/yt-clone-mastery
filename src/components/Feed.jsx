@@ -36,7 +36,9 @@ const Feed = () => {
           variant="h4"
           fontWeight="bold"
           mb={2}
+          pl={9}
           sx={{ color: "white" }}
+          align={"justify"}
         >
           {selectedCategory} <span style={{ color: "#FC1503" }}>videos</span>
         </Typography>
