@@ -8,8 +8,9 @@ const Video = ({ videos, direction }) => {
     <Stack
       direction={direction || "row"}
       flexWrap="wrap"
-      justifyContent="center"
+      justifyContent="start"
       gap={2.5}
+      pl={9}
     >
       {videos.slice(0, 16).map((item, index) => (
         <Box key={index}>
